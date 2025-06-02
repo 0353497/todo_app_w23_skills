@@ -78,6 +78,7 @@ class _HomepageState extends State<Homepage> {
                         todo.task,
                         style: TextStyle(
                           decoration: todo.isDone ? TextDecoration.lineThrough : TextDecoration.none,
+                          color: todo.isDone ? Colors.grey : null
                         ),
                       ),
                     ),
